@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Chess.Api;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Chess.Api.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
 namespace Chess.Api
 {
