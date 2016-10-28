@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Api", "Chess.Api\Chess.Api.csproj", "{94C1051B-962C-43F7-BF8F-BBCC1F3012CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{138FD6C7-72F9-43E1-8369-1E888167472A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{DB4AEC07-9652-4586-BC14-EBAE945C0A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Api.UnitTests", "UnitTests\Chess.Api.UnitTests\Chess.Api.UnitTests.csproj", "{BC0D1535-2451-4DCB-BFBF-425BFA85711B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Api.IntegrationTests", "IntegrationTests\Chess.Api.IntegrationTests\Chess.Api.IntegrationTests.csproj", "{BF391654-269A-49FB-8E0B-DEA305174265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94C1051B-962C-43F7-BF8F-BBCC1F3012CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C1051B-962C-43F7-BF8F-BBCC1F3012CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C1051B-962C-43F7-BF8F-BBCC1F3012CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C1051B-962C-43F7-BF8F-BBCC1F3012CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0D1535-2451-4DCB-BFBF-425BFA85711B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0D1535-2451-4DCB-BFBF-425BFA85711B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0D1535-2451-4DCB-BFBF-425BFA85711B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0D1535-2451-4DCB-BFBF-425BFA85711B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF391654-269A-49FB-8E0B-DEA305174265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF391654-269A-49FB-8E0B-DEA305174265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF391654-269A-49FB-8E0B-DEA305174265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF391654-269A-49FB-8E0B-DEA305174265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC0D1535-2451-4DCB-BFBF-425BFA85711B} = {DB4AEC07-9652-4586-BC14-EBAE945C0A95}
+		{BF391654-269A-49FB-8E0B-DEA305174265} = {138FD6C7-72F9-43E1-8369-1E888167472A}
+	EndGlobalSection
+EndGlobal
