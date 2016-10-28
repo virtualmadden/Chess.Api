@@ -4,7 +4,7 @@ using System.Web.Http;
 namespace Chess.Api.Controllers
 {
     [Authorize]
-    public class ValuesController : ApiController
+    public class MovesController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
