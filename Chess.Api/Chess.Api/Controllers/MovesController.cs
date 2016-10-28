@@ -4,10 +4,11 @@ using System.Web.Http;
 namespace Chess.Api.Controllers
 {
     [Authorize]
+    [RoutePrefix("api/move")]
     public class MovesController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        [Route("UserInfo")]
+        public IEnumerable<string> Move()
         {
             return new[] {"value1", "value2"};
         }
