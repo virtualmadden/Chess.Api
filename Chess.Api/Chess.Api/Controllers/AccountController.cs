@@ -9,15 +9,22 @@ namespace Chess.Api.Controllers
     [RoutePrefix("users")]
     public class AccountController : ApiController
     {
-        [Route("users/{userId}")]
+        [HttpPut]
+        [Route("create")]
+        public HttpResponseMessage CreateUser(int userId, [FromBody] Credentials credentials)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpGet]
+        [Route("find/{userId}")]
         public HttpResponseMessage GetUserById(int userId, [FromBody] Credentials credentials)
         {
             throw new NotImplementedException();
         }
 
-        [Route("users/{username}")]
         [HttpGet]
+        [Route("find/{username}")]
         public HttpResponseMessage GetUserByUserName(string userName, [FromBody] Credentials credentials)
         {
             throw new NotImplementedException();
